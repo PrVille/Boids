@@ -1,0 +1,46 @@
+16.03.22
+-Created project-
+As instructed by email from assistant I'm writing this progress log to indicate I haven't started the project yet and will be doing so soon.
+
+30.03.22
+-Classes added-
+Main - GUI
+Ticker - Animate
+Boid - Single boid with a draw method
+Flock - Collection of boids
+Simulation - Controls the simulation
+Behaviour - controls the behaviour of a flock
+
+All the methods in the project work correctly so far.
+I have difficulty understanding creating the GUI how I want it to look like.
+Workload spent on the project has been small ~10h and I am lagging behind due to other courses.
+There will be more time next week and I will be focusing on the project then.
+
+13.04.22
+-Classes added-
+Obstacle - single obstacle
+Predator - single predator
+
+Behaviour trait class contains rules for boids and predators to operate on:
+  Applying edges for boids and predators, bouncing from walls or wrapping around
+  Applying speed limits for boids and predators
+  Boids flocking behaviour - separation, alignment and cohesion
+  Boids also have rules to avoid predators and objects
+  Predators have rule to seek the nearest prey
+
+Main class controls gui
+
+Simulation controls the simulation and has multiple key methods:
+  Updating the boids and predator position guided by behaviour
+  Drawing boids, obstacle, predator
+  Resetting flock
+  Adding and removing boids, predators, obstacles
+  Toggling different settings like turbomode, racism, autospawn
+
+Flock class includes methods for adding and removing boids in a flock and creating new boids
+
+All the requirements for the project are met and work correctly. I have added extras like predators and objects and methods relating to them.
+Workload spent on the project so far is around 40h. I have some more ideas to add and cleaning up the code.
+
+
+
